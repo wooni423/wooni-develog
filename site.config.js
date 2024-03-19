@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `wooni-develog`,
-      href: "https://github.com/wooni423/wooni-develog.git",
+      href: "wooni423/wooni-develog.git",
     },
   ],
   // blog setting (required)
