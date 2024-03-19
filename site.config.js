@@ -53,9 +53,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "https://github.com/wooni423/blog-comment-repo.git",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
